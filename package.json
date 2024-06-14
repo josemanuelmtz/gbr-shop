@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:gbr-shop": "node dist/gbr-shop/server/server.mjs"
+    "serve:ssr:gbr-shop": "node dist/gbr-shop/server/server.mjs",
+    "build:prod": "ng build --configuration production --base-href=/gb-shop/" 
   },
   "private": true,
   "dependencies": {
